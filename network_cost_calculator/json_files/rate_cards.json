@@ -1,0 +1,20 @@
+{
+    "rate_cards": [
+        {
+            "name": "Rate Card A",
+            "Cabinet": 1000,
+            "Trench/m (verge)": 50,
+            "Trench/m (road)": 100,
+            "Chamber": 200,
+            "Pot": 100
+        },
+        {
+            "name": "Rate Card B",
+            "Cabinet": 1200,
+            "Trench/m (verge)": 40,
+            "Trench/m (road)": 80,
+            "Chamber": 200,
+            "Pot": 20
+        }
+    ]
+}

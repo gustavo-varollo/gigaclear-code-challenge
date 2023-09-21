@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="long" for="edge" id="length" />
+  <key attr.name="material" attr.type="string" for="edge" id="material" />
+  <key attr.name="type" attr.type="string" for="node" id="type" />
+  <graph edgedefault="undirected">
+    <node id="A">
+      <data key="type">Cabinet</data>
+    </node>
+    <node id="B">
+      <data key="type">Pot</data>
+    </node>
+    <node id="C">
+      <data key="type">Pot</data>
+    </node>
+    <node id="D">
+      <data key="type">Pot</data>
+    </node>
+    <node id="E">
+      <data key="type">Pot</data>
+    </node>
+    <node id="F">
+      <data key="type">Chamber</data>
+    </node>
+    <node id="G">
+      <data key="type">Chamber</data>
+    </node>
+    <node id="H">
+      <data key="type">Chamber</data>
+    </node>
+    <node id="I">
+      <data key="type">Chamber</data>
+    </node>
+    <edge source="A" target="F">
+      <data key="material">verge</data>
+      <data key="length">50</data>
+    </edge>
+    <edge source="B" target="F">
+      <data key="material">verge</data>
+      <data key="length">20</data>
+    </edge>
+    <edge source="C" target="G">
+      <data key="material">road</data>
+      <data key="length">50</data>
+    </edge>
+    <edge source="D" target="H">
+      <data key="material">road</data>
+      <data key="length">100</data>
+    </edge>
+    <edge source="E" target="H">
+      <data key="material">verge</data>
+      <data key="length">50</data>
+    </edge>
+    <edge source="F" target="G">
+      <data key="material">verge</data>
+      <data key="length">100</data>
+    </edge>
+    <edge source="G" target="I">
+      <data key="material">road</data>
+      <data key="length">40</data>
+    </edge>
+    <edge source="H" target="G">
+      <data key="material">road</data>
+      <data key="length">100</data>
+    </edge>
+  </graph>
+</graphml>
